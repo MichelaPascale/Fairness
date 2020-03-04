@@ -1,3 +1,3 @@
-import Sentiment.SentimentAnalysis as st
+import Sentiment.SentimentAnalysis as sa
 
-st.SentimentAnalysis("Come on, lets play together")
+sa.sentiment(["Come on, lets play together"])
